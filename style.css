@@ -1,0 +1,392 @@
+body{
+  margin: 0;
+  text-align: center;
+  color #40514E;
+  font-family: 'Merriweather' serif;
+}
+.topcontainer{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px ;
+
+
+}
+.topii{
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+
+}
+h1{
+font-size: 4.25rem;
+  margin: 50px auto 0 auto;
+color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+
+}
+hr{
+  margin: 80px auto 80px auto;
+	border-style: dotted none none;
+	border-width: 5px;
+	width: 5%;
+	border-color: #3282b8;
+}
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+p{
+  line-height: 2;
+  width: 35%;
+  margin: auto;
+}
+.p2{
+  line-height: 2;
+display: block;
+font-family: 'Montserrat', sans-serif;
+font-weight: normal;
+font-size: 18px;
+padding: 2% 15% 3% 15%;
+}
+
+.middlecontainer{
+  margin-top: 100px 0;
+}
+.profile{
+  margin-top: 100px;
+}
+.hello{
+  font-size: 38px;
+
+}
+.bottomcloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.topcloud{
+ position: absolute;
+ left: 12%;
+ top: 300px;
+}
+.topimg{
+  position: absolute;
+  left:   70px;
+  top: 7px;
+}
+.topp{
+  position: absolute;
+  right: 70px;
+  top: 7px;
+
+}
+
+
+
+
+
+
+
+/* header */
+.logo{
+	width: 75px;
+	height: 75px;
+	cursor: pointer;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	display: inline-block;
+	padding: 0px 15px;
+}
+ul li a{
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Baloo Chettan 2', cursive;
+	color: #0f4c75;
+}
+ul li a.active{
+	color: black;
+}
+ul li a:hover{
+	color: #1b262c;
+}
+.po{
+  padding: 49px;
+  background-color: #E4F9F5;
+
+}
+/*      */
+.skills {
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+.skill_img{
+  width: 80px;
+  margin: 0 15px;
+}
+
+/* fotter*/
+/*#f{ */
+	/* position: fixed; */
+  /* bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+	background-color: #1b262c;
+	width: 100%;
+	height: 220px;
+
+}
+.flogo{
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	left: 15%;
+	top: 33%;
+}
+.link{
+	display: flex;
+	position: absolute;
+	top: 5%;
+	left: 41%;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Baloo Chettan 2', cursive;
+  margin: 15px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.footer-social-icons ul li{
+    margin: 0 15px;
+    list-style: none;
+}
+.footer-social-icons ul li a{
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: -5s;
+}
+.footer-social-icons ul li a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #11999E;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+}
+.footer-social-icons ul li a:hover:before{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #11999E;
+}
+.footer-social-icons ul li a:hover{
+    color: #11999E;
+    box-shadow: 0 0 5px #11999E;
+    text-shadow: 0 0 5px #11999E;
+}
+.copyright {
+  position: absolute;
+  bottom: 1%;
+  left: 41%;
+  text-align: center;
+  color: #EAF6F6;
+  font-size: 0.85rem;
+} */
+
+/* button*/
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 225;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+
+#f{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+#contact{
+  padding-bottom: 10.5px;
+}
+
+/* bubble effect */
+.bubbles{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 0;
+  background: transparent;
+}
+.bubble{
+  position: absolute;
+  bottom: 0;
+  background: radial-gradient( #fff,#666666);
+  border-radius: 50%;
+  opacity: 0.4;
+  animation: flying 10s infinite ease-in;
+}
+.bubble:nth-child(1){
+  width: 40px;
+  height: 40px;
+  left: 10%;
+  animation-duration: 8s;
+}
+.bubble:nth-child(2){
+  width: 20px;
+  height: 20px;
+  left: 20%;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+.bubble:nth-child(3){
+  width: 50px;
+  height: 50px;
+  left: 35%;
+  animation-duration: 5s;
+  animation-delay: 2s;
+}
+.bubble:nth-child(4){
+  width: 80px;
+  height: 80px;
+  left: 50%;
+  animation-duration: 10s;
+  animation-delay: 0s;
+}
+.bubble:nth-child(5){
+  width: 35px;
+  height: 35px;
+  left: 55%;
+  animation-duration: 6s;
+  animation-delay: 1s;
+}
+.bubble:nth-child(6){
+  width: 45px;
+  height: 45px;
+  left: 40%;
+  animation-duration: 8s;
+  animation-delay: 3s;
+}
+.bubble:nth-child(7){
+  width: 25px;
+  height: 25px;
+  left: 75%;
+  animation-duration: 7s;
+  animation-delay: 2s;
+}
+.bubble:nth-child(8){
+  width: 80px;
+  height: 80px;
+  left: 80%;
+  animation-duration: 6s;
+  animation-delay: 1s;
+}
+.bubble:nth-child(9){
+  width: 15px;
+  height: 15px;
+  left: 70%;
+  animation-duration: 9s;
+  animation-delay: 0s;
+}
+.bubble:nth-child(10){
+  width: 40px;
+  height: 40px;
+  left: 25%;
+  animation-duration: 5s;
+  animation-delay: 3s;
+}
+
+.footer-link{
+  color: #11999E;
+  font-family: 'Baloo Chettan 2', cursive;
+  margin: 15px 20px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+.last{
+  width: 50%;
+text-align: center;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding-top: 10px;
+}
+.f-link{
+  color: #EAF6F6;
+  text-decoration: none;
+}
+.lastt{
+  width: 50%;
+  float: right;
+}
